@@ -1,4 +1,8 @@
 {
     "name": "ZK Software House - Teste",
-    "main": "index.html"
+    "main": "index.html",
+    "window":{
+        "width": 860,
+        "height": 600
+    }
 }
