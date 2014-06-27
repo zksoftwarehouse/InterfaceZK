@@ -3,6 +3,7 @@
     "main": "index.html",
     "window":{
         "width": 860,
-        "height": 600
+        "height": 600,
+        "toolbar":false
     }
 }
