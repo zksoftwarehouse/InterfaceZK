@@ -4,6 +4,6 @@
     "window":{
         "width": 860,
         "height": 600,
-        "toolbar":false
+        "toolbar":true
     }
 }

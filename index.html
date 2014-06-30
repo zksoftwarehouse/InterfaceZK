@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="js/main.js"></script>
     <title>ZK Software House</title>
-    <div>Testando</div><br>
-    <div><a href="http://www.zksoftwarehouse.com.br" target="_blank"> Link</div><br>
+    <!-- CSS -->
+    <link href="css/zk.css"  rel="stylesheet" media="screen">
+    <!-- CSS -->
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/jquery-2.1.1.js" type="text/javascript"></script>
+    <!-- JavaScript -->
+
+    <!-- jQuery -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#divLateral").click(function(){
+                $("#divLateral").animate({width: 'toggle'});
+            });
+        });
+    </script> 
+    <!-- jQuery -->
+
+
 </head>
 <body>
- 
+    <div id="divGlobal">
+        <div id="divLateral">
+            <img src="img/zkLogo.png" id="logoZK">
+        </div>
+    </div>
 </body>
 </html>

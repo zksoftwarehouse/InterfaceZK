@@ -1,0 +1,38 @@
+/* Arquivo principal sobre CSS.  *
+* www.zksoftwarehouse.com.br     *
+* contato@zksoftwarehouse.com.br */
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    background-color: darkgray;
+    height: 100%;
+}
+
+#divGlobal{
+    width: 100%;
+    height: 100%;
+    background-color: darkred;
+    float: right;
+}
+
+#divLateral{
+    background-color: black;
+    margin-bottom: -2px;
+    width: 300px;
+    height: 95%;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: gray;
+    display: block;
+    box-shadow: 7px 3px 12px 2px #000;
+}
+
+#logoZK{
+    width: 100px;
+    margin-top: 20px;
+}
