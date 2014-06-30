@@ -12,6 +12,20 @@ body{
     height: 100%;
 }
 
+h1.hOpcoes{
+    color: darkgray;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.divOpcoes{
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 15px;
+    text-align: center;
+}
+
 #divGlobal{
     width: 100%;
     height: 100%;
@@ -23,9 +37,9 @@ body{
     background-color: black;
     margin-bottom: -2px;
     width: 300px;
-    height: 95%;
+    height: 98%;
     text-align: center;
-    border: 2px solid;
+    
     border-radius: 5px;
     border-color: gray;
     display: block;
