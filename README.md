@@ -4,7 +4,7 @@ Projeto para a interface gráfica do Compactador e Criptógrafo em desenvolvimen
 A ZK Software House foi contemplada pelo Sinapse da Inovação 2014.<br>
 Para saber mais sobre a empresa e seus produtos, acesse:
 
-<h2><a href = "http://www.zksoftwarehouse.com.br" target = "_blank">ZK Software House</a></h2>
+<h2><a href = "http://www.zksoftwarehouse.com.br" target = "_blank">zksoftwarehouse.com.br</a></h2>
 
 <i># Em breve novas informações serão adicionadas!</i>
 
