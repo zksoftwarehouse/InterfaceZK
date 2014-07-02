@@ -3,6 +3,7 @@
 <head>
     <title>ZK Software House</title>
     <!-- CSS -->
+    <link href="css/bootstrap.min.css"  rel="stylesheet" media="screen">
     <link href="css/zk.css"  rel="stylesheet" media="screen">
     <!-- CSS -->
 
@@ -15,7 +16,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $("#divLateral").click(function(){
-                $("#divLateral").animate({width: 'toggle'});
+                //$("#divLateral").animate({width: 'toggle'});
             });
         });
     </script> 
@@ -23,17 +24,34 @@
 
 </head>
 <body>
+
     <div id="divGlobal">
         <div id="divLateral">
             <img src="img/zkLogo.png" id="logoZK"><hr>
-            <div class="divOpcoes"><h1 class="hOpcoes">Teste</h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes">Teste</h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes">Teste</h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes">Teste</h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes">Teste</h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes">Teste</h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes">Teste</h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes">Teste</h1></div>
+            <div class="divOpcoes"><h1 class="hOpcoes"><a href="#openModal">ADD</a></h1></div>
+            <div class="divOpcoes"><h1 class="hOpcoes"><a href="#modalCript">ADD</a></h1></div>
+            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+        </div>
+
+        <div id="openModal" class="modalArquivos">
+            <div id="divModal">
+                <a class="close" title="Close" href="#close">X</a>
+                <h1 class="arquivos">Salve seu arquivo</h1>
+                <div id="divArquivos"></div>
+            </div>
+        </div>
+
+        <div id="modalCript" class="modalArquivos">
+            <div id="divModal">
+                <a class="close" title="Close" href="#close">X</a>
+                <h1 class="arquivos">Salve seu arquivo</h1>
+                <div id="divArquivos"></div>
+            </div>
         </div>
     </div>
 </body>
