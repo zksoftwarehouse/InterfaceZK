@@ -109,8 +109,12 @@ h1.arquivos{
 #divArquivos{
     width: 70%;
     height: 80%;
+    margin-top: 2%;
     float: right;
-    background-color: red;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: gray;
+    background-color: white;
 }
 /*Testes com MODAL*/
 /*Testes com MODAL*/
