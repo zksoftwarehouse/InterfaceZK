@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>ZK Software House</title>
+    <html lang="pt-br"><meta charset="utf-8">
     <!-- CSS -->
     <link href="css/bootstrap.min.css"  rel="stylesheet" media="screen">
     <link href="css/zk.css"  rel="stylesheet" media="screen">
@@ -16,7 +17,9 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $("#divLateral").click(function(){
-                //$("#divLateral").animate({width: 'toggle'});
+                $("#divLateral"    ).animate({width: 'toggle'});
+                $("#divCentral"    ).animate({width: 'toggle', width:"98%"});
+                $("#divInformacoes").animate({width: 'toggle', width:"98%"});
             });
         });
     </script> 
@@ -36,6 +39,12 @@
             <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
             <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
             <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+        </div>
+
+        <div id="divCentral"></div>
+        <div id="divInformacoes">
+            <p>Informações dos arquivos:</p>
+
         </div>
 
         <div id="openModal" class="modalArquivos">
