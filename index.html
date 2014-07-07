@@ -16,23 +16,18 @@
     <!-- jQuery -->
     <script type="text/javascript">
         $(document).ready(function(){
-                  $("#botao").click(function(){
-                        $("#divLateral").slideToggle( 'fast', function(){ 
-                            if($("#divLateral").is(":visible")) {
-                                $("#divCentral"    ).animate({width: 'toggle', width:"76%"});
-                                $("#divInformacoes").animate({width: 'toggle', width:"76%"}); 
-                            }
-                            else{
-                                $("#divCentral"    ).animate({width: 'toggle', width:"98%"});
-                                $("#divInformacoes").animate({width: 'toggle', width:"98%"});    
-                            }
-                        });
-                    });
-                /*$( "#botao" ).click(function() {
-                    $("#divLateral"    ).animate({width: 'toggle'});
-                    $("#divCentral"    ).animate({width: 'toggle', width:"98%"});
-                    $("#divInformacoes").animate({width: 'toggle', width:"98%"}); 
-                });*/
+            $("#botao").click(function(){
+                if($("#divLateral").is(":visible")){  
+                    $("#divLateral").animate({width:"toggle"});
+                    $("#divCentral"    ).animate({width:"99%"});
+                    $("#divInformacoes").animate({width:"99%"}); 
+                }
+                else{
+                    $("#divCentral"    ).animate({width: 'toggle', width:"76.5%"});
+                    $("#divInformacoes").animate({width: 'toggle', width:"76.5%"});    
+                    $("#divLateral").animate({width:"toggle"});
+                }
+            });
         });
     </script> 
     <!-- jQuery -->
@@ -54,7 +49,7 @@
         </div>
 
         <div id="divCentral">
-            <img src="img/botao.png" id="botao">
+            <img src="img/botao_2.png" id="botao" alt="Mostrar/Esconder">
 
         </div>
         <div id="divInformacoes"><p>Informações dos arquivos:</p></div>
