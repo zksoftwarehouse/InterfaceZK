@@ -139,7 +139,7 @@ p{
     background-color: black;
     margin-bottom: -2px;
     width: 300px;
-    height: 99.1%;
+    height: 99.5%;
     float: left;
     text-align: center;
     
@@ -150,7 +150,7 @@ p{
 #divCentral{
     display: inline-block;
     width: 76.5%;
-    height: 93%;
+    height: 95.5%;
     margin-top: 0.1em;
     margin-left: 0.5em;
     background-color: red;
@@ -163,7 +163,7 @@ p{
     margin-top: 1px;
     display: inline-block;
     width: 76.5%;
-    height: 38px;
+    height: 35px;
 
     margin-left: 0.5em;
     background-color: white;
