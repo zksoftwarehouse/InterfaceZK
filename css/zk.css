@@ -132,14 +132,14 @@ p{
 #divGlobal{
     width: 100%;
     height: 100%;
-    background-color: gray;
+    background-color: black;
 }
 
 #divLateral{
     background-color: black;
     margin-bottom: -2px;
     width: 300px;
-    height: 99.5%;
+    height: 99%;
     float: left;
     text-align: center;
     
@@ -148,11 +148,11 @@ p{
 }
 
 #divCentral{
+    float: right;
     display: inline-block;
-    width: 76.5%;
-    height: 95.5%;
+    width: 77%;
+    height: 95%;
     margin-top: 0.1em;
-    margin-left: 0.5em;
     background-color: red;
     border-radius: 5px;
     border: 1px solid;
@@ -161,11 +161,11 @@ p{
 
 #divInformacoes{
     margin-top: 1px;
+    float: right;
     display: inline-block;
-    width: 76.5%;
-    height: 35px;
+    width: 77%;
+    height: 30px;
 
-    margin-left: 0.5em;
     background-color: white;
     border-radius: 2px;
     
