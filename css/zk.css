@@ -150,7 +150,7 @@ p{
 #divCentral{
     float: right;
     display: inline-block;
-    width: 70%;
+    width: 75%;
     height: 94%;
     margin-top: 0.1em;
     background-color: red;
@@ -163,7 +163,7 @@ p{
     margin-top: 0.1%;
     float: right;
     display: inline-block;
-    width: 70%;
+    width: 75%;
     height: 30px;
 
     background-color: white;

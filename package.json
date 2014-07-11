@@ -2,8 +2,8 @@
     "name": "ZK Software House - Teste",
     "main": "index.html",
     "window":{
-        "width": 860,
-        "height": 600,
+        "width": 1024,
+        "height": 768,
         "toolbar":true
     }
 }

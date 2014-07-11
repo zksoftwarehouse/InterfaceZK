@@ -17,15 +17,15 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $("#botao").click(function(){
-                if($("#divLateral").is(":visible")){  
-                    $("#divLateral").animate({width:"toggle"});
+                if($("#divLateral"     ).is(":visible")){  
+                    $("#divLateral"    ).animate({width:"toggle"});
                     $("#divCentral"    ).animate({width:"98%"});
                     $("#divInformacoes").animate({width:"98%"}); 
                 }
                 else{
-                    $("#divCentral"    ).animate({width: 'toggle', width:"70%"});
-                    $("#divInformacoes").animate({width: 'toggle', width:"70%"});    
-                    $("#divLateral").animate({width:"toggle"});
+                    $("#divCentral"    ).animate({width: 'toggle', width:"75%"});
+                    $("#divInformacoes").animate({width: 'toggle', width:"75%"});    
+                    $("#divLateral"    ).animate({width:"toggle"});
                 }
             });
         });
@@ -38,8 +38,8 @@
     <div id="divGlobal">
         <div id="divLateral">
             <img src="img/zkLogo.png" id="logoZK"><hr>
-            <div class="divOpcoes"><h1 class="hOpcoes"><a href="#openModal">ADD</a></h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes"><a href="#modalCript">ADD</a></h1></div>
+            <div class="divOpcoes"><h1 class="hOpcoes"><a href="#openModal">Compactar</a></h1></div>
+            <div class="divOpcoes"><h1 class="hOpcoes"><a href="#modalCript">Criptografar</a></h1></div>
             <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
             <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
             <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
