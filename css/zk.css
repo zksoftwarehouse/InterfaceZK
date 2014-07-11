@@ -4,12 +4,12 @@
 
 html{
     height: 100%;
-    background-color: black;
+    background-color: white;
 }
 
 body{
     margin: 0px;
-    background-color: black;
+    background-color: white;
     height: 100%;
 }
 
@@ -150,8 +150,8 @@ p{
 #divCentral{
     float: right;
     display: inline-block;
-    width: 77%;
-    height: 95%;
+    width: 70%;
+    height: 94%;
     margin-top: 0.1em;
     background-color: red;
     border-radius: 5px;
@@ -160,10 +160,10 @@ p{
 }
 
 #divInformacoes{
-    margin-top: 1px;
+    margin-top: 0.1%;
     float: right;
     display: inline-block;
-    width: 77%;
+    width: 70%;
     height: 30px;
 
     background-color: white;
