@@ -35,10 +35,10 @@
 </head>
 <body>
 
-    <div id="divGlobal">
+    <div class="divGlobal">
         <div id="divLateral">
             <img src="img/zkLogo.png" id="logoZK"><hr>
-            <div class="divOpcoes"><h1 class="hOpcoes"><a href="#openModal">Compactar</a></h1></div>
+            <div class="divOpcoes"><h1 class="hOpcoes"><a href="#modalArq">Compactar</a></h1></div>
             <div class="divOpcoes"><h1 class="hOpcoes"><a href="#modalCript">Criptografar</a></h1></div>
             <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
             <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
@@ -54,21 +54,24 @@
 
         <div id="divInformacoes"><p>Informações dos arquivos:</p></div>
 
-        <div id="openModal" class="modalArquivos">
-            <div id="divModal">
+        <div id="modalArq" class="modalArquivos">
+            <div id="divModalArq">
                 <a class="close" title="Close" href="#close">X</a>
-                <h1 class="arquivos">Salve seu arquivo</h1>
+                <h1 class="geral">Salve seu arquivo</h1>
                 <div id="divArquivos"></div>
             </div>
         </div>
 
-        <div id="modalCript" class="modalArquivos">
-            <div id="divModal">
+        <div id="modalCript" class="modalCriptografia">
+            <div id="divModalCript">
                 <a class="close" title="Close" href="#close">X</a>
-                <h1 class="arquivos">Salve seu arquivo</h1>
-                <div id="divArquivos"></div>
+                <h1 class="geral">Escolha o modelo de criptografia</h1>
+                <div id="divCript">
+                    <div class="divOpcoesCript"></div><div class="divOpcoesCript"></div>
+                </div>
             </div>
         </div>
+
     </div>
 </body>
 </html>

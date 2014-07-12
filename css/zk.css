@@ -1,6 +1,6 @@
-/* Arquivo principal sobre CSS.  *
-* www.zksoftwarehouse.com.br     *
-* contato@zksoftwarehouse.com.br */
+/*                  Arquivo principal sobre CSS.                  *
+*                   www.zksoftwarehouse.com.br                    *
+*                   contato@zksoftwarehouse.com.br                */
 
 html{
     height: 100%;
@@ -29,13 +29,19 @@ h1.hOpcoes{
     font-size: 20px;
 }
 
-h1.arquivos{
+h1.geral{
     text-align: center;
 }
 
 p{
     margin: 5px;
     color: gray;
+}
+
+.divGlobal{
+    width: 100%;
+    height: 100%;
+    background-color: black;
 }
 
 .divOpcoes{
@@ -49,6 +55,25 @@ p{
 
 .divOpcoes:hover{
     background-color: gray;
+}
+
+.divOpcoesCript{
+    margin-left: 4px;
+    float: left;
+    width: 315px;
+    height: 150px;
+    background: gray;
+
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: white;
+
+    box-shadow: 7px 7px 15px #fff;
+}
+
+.divOpcoesCript:hover{
+    box-shadow: 5px 4px 15px #000;    
+    border-color: black;
 }
 
 /*Testes com MODAL*/
@@ -86,6 +111,39 @@ p{
     background: -o-linear-gradient(#fff, #999);
 }
 
+.modalCriptografia{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalCriptografia:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalCriptografia > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
 .close{
     background: #000;
     color: #FFFFFF;
@@ -109,11 +167,20 @@ p{
     background: blue; 
 }
 
-#divModal{
+#divModalArq{
     margin-top: 5%;
     width: 80%;
     height: 80%;
 }
+
+#divModalCript{
+    margin-top: 5%;
+    width: 50%;
+    height: 50%;   
+}
+
+/*Testes com MODAL*/
+/*Testes com MODAL*/
 
 #divArquivos{
     width: 70%;
@@ -126,13 +193,15 @@ p{
     border-color: gray;
     background-color: white;
 }
-/*Testes com MODAL*/
-/*Testes com MODAL*/
 
-#divGlobal{
-    width: 100%;
-    height: 100%;
-    background-color: black;
+#divCript{
+    margin: 5px;
+    width: 94.5%;
+    height: 45%;
+    margin-top: 4%;
+    float: right;
+
+    background-color: transparent;
 }
 
 #divLateral{
