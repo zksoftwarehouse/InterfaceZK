@@ -30,17 +30,17 @@
             });
 
             $("#imgZK").click(function(){
-                if($(".divBitsAES" ).is(":visible"))
+                if($(".divBitsAES"     ).is(":visible"))
                     $(".divBitsAES"    ).slideToggle();
 
                 $(".divBitsZK").slideToggle();
             });
 
             $("#imgAES").click(function(){
-                if($(".divBitsZK" ).is(":visible"))
+                if($(".divBitsZK"     ).is(":visible"))
                     $(".divBitsZK"    ).slideToggle();
                 
-                $(".divBitsAES"    ).slideToggle();
+                $(".divBitsAES"       ).slideToggle();
             });
         });
     </script> 
@@ -80,13 +80,15 @@
             <div id="divModalCript">
                 <a class="close" title="Close" href="#close">X</a>
                 <div id="divCript">
-                    <div class="divOpcoesCript" title="Método ZK (Recomendado)"><img src="img/zkParte.png" id="imgZK">
-                        <div class="divBitsZK"></div>
-                        <div class="divBitsZK"></div>
+                    <div class="divOpcoesCript" title="Método ZK (Recomendado)">
+                        <img src="img/zkParte.png" id="imgZK">
+                        <div class="divBitsZK">128bits</div>
+                        <div class="divBitsZK">256bits</div>
                     </div>
-                    <div class="divOpcoesCript" title="Método AES"             ><img src="img/aesLogo.png" id="imgAES">
-                        <div class="divBitsAES"></div>
-                        <div class="divBitsAES"></div>
+                    <div class="divOpcoesCript" title="Método AES">
+                        <img src="img/aesLogo.png" id="imgAES">
+                        <div class="divBitsAES">128bits</div>
+                        <div class="divBitsAES">256bits</div>
                     </div>
                 </div>
             </div>

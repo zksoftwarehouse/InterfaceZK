@@ -77,8 +77,8 @@ p{
 .divBitsZK{
     width: 100%;
     height: 30px;
-    background: black;
-    margin-top: 2px;
+    background: #708090;
+    margin-top: 1px;
     float: left;
     display: none;
 }
@@ -86,8 +86,9 @@ p{
 .divBitsAES{
     width: 100%;
     height: 30px;
-    background: black;
-    margin-top: 2px;
+    background: #708090;
+    margin-top: 1px;
+
     float: right;
     display: none;
 }
@@ -239,7 +240,7 @@ p{
     width: 75%;
     height: 94%;
     margin-top: 0.1em;
-    background-color: red;
+    background-color: #FF0000;
     border-radius: 5px;
     border: 1px solid;
     box-shadow: 7px 3px 20px 2px #000;   
