@@ -3,14 +3,15 @@
 <head>
     <title>ZK Software House</title>
     <html lang="pt-br"><meta charset="utf-8">
-    <!-- CSS -->
+    <!-- CSS -->	
+    <link href="css/style.css"  rel="stylesheet" media="screen">
     <link href="css/bootstrap.min.css"  rel="stylesheet" media="screen">
     <link href="css/zk.css"  rel="stylesheet" media="screen">
     <!-- CSS -->
 
     <!-- JavaScript -->
-    <script src="js/main.js"></script>
-    <script src="js/jquery-2.1.1.js" type="text/javascript"></script>
+	<script src="js/jquery-2.1.1.js" type="text/javascript"></script>
+    <script src="js/main.js"></script> 
     <!-- JavaScript -->
 
     <!-- jQuery -->
@@ -63,7 +64,18 @@
         </div>
 
         <div id="divCentral">
-            <img src="img/botao_3.png" id="botao" title="Mostrar/Esconder">
+            
+			<!-- -->
+			<div style="position: relative; float: right; top: 10px; width: 90%; height: 94%; overflow: auto">
+    			<div class="row">
+      				<ul id="addressbar" class="breadcrumb"></ul>
+    			</div>
+    			<div >
+      				<ul id="files"></ul>
+    			</div>
+  			</div>
+			<img src="img/botao_3.png" id="botao" title="Mostrar/Esconder">
+			<!-- -->			
         </div>
 
         <div id="divInformacoes"><p>Informações dos arquivos:</p></div>
