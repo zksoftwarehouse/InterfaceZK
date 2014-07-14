@@ -28,6 +28,20 @@
                     $("#divLateral"    ).animate({width:"toggle"});
                 }
             });
+
+            $("#imgZK").click(function(){
+                if($(".divBitsAES" ).is(":visible"))
+                    $(".divBitsAES"    ).slideToggle();
+
+                $(".divBitsZK").slideToggle();
+            });
+
+            $("#imgAES").click(function(){
+                if($(".divBitsZK" ).is(":visible"))
+                    $(".divBitsZK"    ).slideToggle();
+                
+                $(".divBitsAES"    ).slideToggle();
+            });
         });
     </script> 
     <!-- jQuery -->
@@ -66,8 +80,14 @@
             <div id="divModalCript">
                 <a class="close" title="Close" href="#close">X</a>
                 <div id="divCript">
-                    <div class="divOpcoesCript" title="Método ZK (Recomendado)"><img src="img/zkParte.png" id="botaoZK"></div>
-                    <div class="divOpcoesCript" title="Método AES"             ><img src="img/aesLogo.png" id="botaoZK"></div>
+                    <div class="divOpcoesCript" title="Método ZK (Recomendado)"><img src="img/zkParte.png" id="imgZK">
+                        <div class="divBitsZK"></div>
+                        <div class="divBitsZK"></div>
+                    </div>
+                    <div class="divOpcoesCript" title="Método AES"             ><img src="img/aesLogo.png" id="imgAES">
+                        <div class="divBitsAES"></div>
+                        <div class="divBitsAES"></div>
+                    </div>
                 </div>
             </div>
         </div>

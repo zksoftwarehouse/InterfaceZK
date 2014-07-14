@@ -74,6 +74,24 @@ p{
     border-color: black;
 }
 
+.divBitsZK{
+    width: 100%;
+    height: 30px;
+    background: black;
+    margin-top: 2px;
+    float: left;
+    display: none;
+}
+
+.divBitsAES{
+    width: 100%;
+    height: 30px;
+    background: black;
+    margin-top: 2px;
+    float: right;
+    display: none;
+}
+
 /*Testes com MODAL*/
 /*Testes com MODAL*/
 .modalArquivos {
@@ -244,10 +262,18 @@ p{
     margin-top: 20px;
 }
 
-#botaoZK{
+#imgZK{
     margin-top: 1%;
     width: 200px;
     margin-left: 15%;
+}
+
+#imgAES{
+    margin-top: 13%;
+    margin-left: 15%;
+    margin-bottom: 27px;
+    width: 200px;
+    height: 140px;
 }
 
 #botao{
