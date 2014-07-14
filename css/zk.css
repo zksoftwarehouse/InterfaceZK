@@ -24,8 +24,6 @@ a:hover{
 }
 
 h1.hOpcoes{
-    color: darkgray;
-    font-family: Verdana;
     font-size: 20px;
 }
 
@@ -37,6 +35,8 @@ p{
     margin: 5px;
     color: gray;
 }
+
+/*                   Classes                */
 
 .divGlobal{
     width: 100%;
@@ -50,11 +50,12 @@ p{
     margin-left: 40px;
     margin-top: 15px;
     text-align: center;
+
     border-radius: 3px;
 }
 
 .divOpcoes:hover{
-    background-color: gray;
+    background-color: #4A708B;
 }
 
 .divOpcoesCript{
@@ -93,8 +94,6 @@ p{
     display: none;
 }
 
-/*Testes com MODAL*/
-/*Testes com MODAL*/
 .modalArquivos {
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -184,6 +183,8 @@ p{
     background: blue; 
 }
 
+/*                   Identificadores                */
+
 #divModalArq{
     margin-top: 5%;
     width: 80%;
@@ -196,9 +197,6 @@ p{
     width: 50%;
     height: 50%;   
 }
-
-/*Testes com MODAL*/
-/*Testes com MODAL*/
 
 #divArquivos{
     width: 70%;
