@@ -1,107 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ZK Software House</title>
-    <html lang="pt-br"><meta charset="utf-8">
-    <!-- CSS -->	
-    <link href="css/style.css"  rel="stylesheet" media="screen">
-    <link href="css/bootstrap.min.css"  rel="stylesheet" media="screen">
-    <link href="css/zk.css"  rel="stylesheet" media="screen">
-    <!-- CSS -->
+	<title>ZK Software House</title>
+	<html lang="pt-br"><meta charset="utf-8">
+	<!-- CSS -->	
+	<link href="css/style.css"  rel="stylesheet" media="screen">
+	<link href="css/bootstrap.min.css"  rel="stylesheet" media="screen">
+	<link href="css/zk.css"  rel="stylesheet" media="screen">
+	<!-- CSS -->
 
-    <!-- JavaScript -->
+	<!-- JavaScript -->
 	<script src="js/jquery-2.1.1.js" type="text/javascript"></script>
-    <script src="js/main.js"></script> 
-    <!-- JavaScript -->
+	<script src="js/main.js"></script> 
+	<!-- JavaScript -->
 
-    <!-- jQuery -->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#botao").click(function(){
-                if($("#divLateral"     ).is(":visible")){  
-                    $("#divLateral"    ).animate({width:"toggle"});
-                    $("#divCentral"    ).animate({width:"98%"});
-                    $("#divInformacoes").animate({width:"98%"}); 
-                }
-                else{
-                    $("#divCentral"    ).animate({width: 'toggle', width:"75%"});
-                    $("#divInformacoes").animate({width: 'toggle', width:"75%"});    
-                    $("#divLateral"    ).animate({width:"toggle"});
-                }
-            });
+	<!-- jQuery -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#botao").click(function(){
+				if($("#divLateral"     ).is(":visible")){  
+					$("#divLateral"    ).animate({width:"toggle"});
+					$("#divCentral"    ).animate({width:"98%"});
+					$("#divInformacoes").animate({width:"98%"}); 
+				}
+				else{
+					$("#divCentral"    ).animate({width: 'toggle', width:"75%"});
+					$("#divInformacoes").animate({width: 'toggle', width:"75%"});    
+					$("#divLateral"    ).animate({width:"toggle"});
+				}
+			});
 
-            $("#imgZK").click(function(){
-                if($(".divBitsAES"     ).is(":visible"))
-                    $(".divBitsAES"    ).slideToggle();
+			$("#imgZK").click(function(){
+				if($(".divBitsAES"     ).is(":visible"))
+					$(".divBitsAES"    ).slideToggle();
 
-                $(".divBitsZK").slideToggle();
-            });
+				$(".divBitsZK").slideToggle();
+			});
 
-            $("#imgAES").click(function(){
-                if($(".divBitsZK"     ).is(":visible"))
-                    $(".divBitsZK"    ).slideToggle();
-                
-                $(".divBitsAES"       ).slideToggle();
-            });
-        });
-    </script> 
-    <!-- jQuery -->
+			$("#imgAES").click(function(){
+				if($(".divBitsZK"     ).is(":visible"))
+					$(".divBitsZK"    ).slideToggle();
+				
+				$(".divBitsAES"       ).slideToggle();
+			});
+		});
+	</script> 
+	<!-- jQuery -->
 
 </head>
 <body>
 
-    <div class="divGlobal">
-        <div id="divLateral">
-            <img src="img/zkLogo.png" id="logoZK"><hr>
-            <div class="divOpcoes"><h1 class="hOpcoes"><a href="#modalArq">Compactar</a></h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes"><a href="#modalCript">Criptografar</a></h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
-            <div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
-        </div>
+	<div class="divGlobal">
+		<div id="divLateral">
+			<img src="img/zkLogo.png" id="logoZK"><hr>
+			<div class="divOpcoes"><h1 class="hOpcoes"><a href="#modalArq">Compactar</a></h1></div>
+			<div class="divOpcoes"><h1 class="hOpcoes"><a href="#modalCript">Criptografar</a></h1></div>
+			<div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+			<div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+			<div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+			<div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+			<div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+			<div class="divOpcoes"><h1 class="hOpcoes"><a href="">Teste</a></h1></div>
+		</div>
 
-        <div id="divCentral">    
+		<div id="divCentral">    
 		<!-- -->
-            <div class="row"><ul id="addressbar" class="breadcrumb"></ul></div><br>
-            <div id="divNavegador">
-    			<div >
-      				<ul id="files"></ul>
-    			</div>
-  			</div>
+			<div class="row"><ul id="addressbar" class="breadcrumb"></ul></div><br>
+			<div id="divNavegador">
+				<div >
+					<ul id="files"></ul>
+				</div>
+			</div>
 			<img src="img/botao_3.png" id="botao" title="Mostrar/Esconder">
 		<!-- -->			
-        </div>
+		</div>
 
-        <div id="divInformacoes"><p>Informações dos arquivos:</p></div>
+		<div id="divInformacoes"><p>Informações dos arquivos:</p></div>
 
-        <div id="modalArq" class="modalArquivos">
-            <div id="divModalArq">
-                <a class="close" title="Close" href="#close">X</a>
-                <h1 class="geral">Salve seu arquivo</h1>
-                <div id="divArquivos"></div>
-            </div>
-        </div>
+		<div id="modalArq" class="modalArquivos">
+			<div id="divModalArq">
+				<a class="close" title="Close" href="#close">X</a>
+				<h1 class="geral">Salve seu arquivo</h1>
+				<div id="divArquivos"></div>
+			</div>
+		</div>
 
-        <div id="modalCript" class="modalCriptografia">
-            <div id="divModalCript">
-                <a class="close" title="Close" href="#close">X</a>
-                <div id="divCript">
-                    <div class="divOpcoesCript" title="Método ZK (Recomendado)">
-                        <img src="img/zkParte.png" id="imgZK">
-                        <div class="divBitsZK">128bits</div>
-                        <div class="divBitsZK">256bits</div>
-                    </div>
-                    <div class="divOpcoesCript" title="Método AES">
-                        <img src="img/aesLogo.png" id="imgAES">
-                        <div class="divBitsAES">128bits</div>
-                        <div class="divBitsAES">256bits</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		<div id="modalCript" class="modalCriptografia">
+			<div id="divModalCript">
+				<a class="close" title="Close" href="#close">X</a>
+				<div id="divCript">
+					<div class="divOpcoesCript" title="Método ZK (Recomendado)">
+						<img src="img/zkParte.png" id="imgZK">
+						<div class="divBitsZK">128bits</div>
+						<div class="divBitsZK">256bits</div>
+					</div>
+					<div class="divOpcoesCript" title="Método AES">
+						<img src="img/aesLogo.png" id="imgAES">
+						<div class="divBitsAES">128bits</div>
+						<div class="divBitsAES">256bits</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
