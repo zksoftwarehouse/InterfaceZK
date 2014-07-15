@@ -19,14 +19,16 @@
 		$(document).ready(function(){
 			$("#botao").click(function(){
 				if($("#divLateral"     ).is(":visible")){  
-					$("#divLateral"    ).animate({width:"toggle"});
-					$("#divCentral"    ).animate({width:"98%"});
-					$("#divInformacoes").animate({width:"98%"}); 
+					$("#divLateral"     ).animate({width:"toggle"});
+					$("#divCentral"     ).animate({width:"98%"});
+					$("#divInformacoes" ).animate({width:"98%"});
+               $(".breadcrumb"     ).animate({width:"98.7%"});
 				}
 				else{
 					$("#divCentral"    ).animate({width: 'toggle', width:"75%"});
 					$("#divInformacoes").animate({width: 'toggle', width:"75%"});    
 					$("#divLateral"    ).animate({width:"toggle"});
+               $(".breadcrumb"    ).animate({width:"98.3%"});
 				}
 			});
 
@@ -64,7 +66,7 @@
 		</div>
 
 		<div id="divCentral">    
-		<!-- -->
+		<!-- --> 
 			<div class="row"><ul id="addressbar" class="breadcrumb"></ul></div><br>
 			<div id="divNavegador">
 				<div >

@@ -6,6 +6,15 @@ body {
   background-image: url('images/htmlbg.png')
 }
 
+.breadcrumb{
+  background-color: #B22222;
+  width: 98.3%;
+  float: left;
+  margin-left: 19px;
+  text-align: center;
+  border-radius: 2px;
+}
+
 .files {
   padding: 0;
   margin: 0;
