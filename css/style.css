@@ -38,12 +38,12 @@ body {
 
 .file .name {
   width: 80px;
-  color: darkgray;
+  color: white;
   word-wrap: break-word;
 }
 
 .file.focus .name {
-  color: white;
+  color: black;
 }
 
 .file .icon {
