@@ -38,6 +38,7 @@ body {
 
 .file .name {
   width: 80px;
+  color: darkgray;
   word-wrap: break-word;
 }
 
