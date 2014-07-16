@@ -9,6 +9,6 @@ Para saber mais sobre a empresa e seus produtos, acesse:
 <a href = "https://github.com/zksoftwarehouse/InterfaceZK/tree/master/screenshots" target = "_blank">aqui</a></i>
 <br><br>
 <i>Última screenshot:</i>
-<img src="https://raw.githubusercontent.com/zksoftwarehouse/InterfaceZK/master/screenshots/zkCaptura_007.png" target="_blank">
+<img src="https://raw.githubusercontent.com/zksoftwarehouse/InterfaceZK/master/screenshots/zkCaptura_007.png">
 
 <i># Em breve novas informações serão adicionadas!</i>
