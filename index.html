@@ -18,31 +18,29 @@
   <script type="text/javascript">
     $(document).ready(function(){
       $("#botao").click(function(){
-        if($("#divLateral"     ).is(":visible")){  
+        if($("#divLateral"    ).is(":visible")){  
           $("#divLateral"     ).animate({width:"toggle"});
           $("#divCentral"     ).animate({width:"98%"});
           $("#divInformacoes" ).animate({width:"98%"});
-               $(".breadcrumb"     ).animate({width:"98.7%"});
+          $(".breadcrumb"     ).animate({width:"98.7%"});
         }
         else{
           $("#divCentral"    ).animate({width: 'toggle', width:"75%"});
           $("#divInformacoes").animate({width: 'toggle', width:"75%"});    
           $("#divLateral"    ).animate({width:"toggle"});
-               $(".breadcrumb"    ).animate({width:"98.3%"});
+          $(".breadcrumb"    ).animate({width:"98.3%"});
         }
       });
 
       $("#imgZK").click(function(){
         if($(".divBitsAES"     ).is(":visible"))
           $(".divBitsAES"    ).slideToggle();
-
         $(".divBitsZK").slideToggle();
       });
 
       $("#imgAES").click(function(){
         if($(".divBitsZK"     ).is(":visible"))
           $(".divBitsZK"    ).slideToggle();
-        
         $(".divBitsAES"       ).slideToggle();
       });
     });
